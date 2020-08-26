@@ -4,21 +4,40 @@ html {
 body {
     font-size: 1.6em;
     color: #ffffff;
-    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 
 /*ヘッダー*/
+header {
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
 .custom-hamburger .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-main {
-    background-color: black;
 }
 #menu li a {
     color: #ffffff;
     opacity: 0.7;
+    transition: 0.5s;
 }
+#menu li a:hover {
+    opacity: 1;
+}
+.dropdown-item {
+    color: initial !important;
+    font-size: 1.4rem;
+}
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+
+/*メイン*/
+main {
+    background-color: black;
+    font-family: 'Helvetica','Arial','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ Ｐゴシック','MS PGothic'sans-serif;
+}
+h2 {
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
 .jumbotron-extend {
     position: relative;
     height: 100vh;
