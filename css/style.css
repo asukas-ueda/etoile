@@ -36,6 +36,7 @@ main {
 }
 h2 {
     font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    padding-bottom: 10px;
 }
 
 .jumbotron-extend {
@@ -45,7 +46,9 @@ h2 {
     background: url(./../img/top1.png) no-repeat center center;
     background-size: cover;
 }
-
+.topic-box, .ranking-box {
+    padding: 15px;
+}
 .topic-box img {
     width: 90%;
 }
@@ -70,5 +73,22 @@ h2 {
 }
 
 .ranking-box img {
-    width: 60%;
+    width: 90%;
+}
+
+/*フッター*/
+footer {
+    text-align: center !important;
+    background-color: #182933;
+    padding: 50px;
+}
+footer a {
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    color: #ffffff;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+footer a:hover {
+    color: #ffffff;
+    opacity: 1;
 }
