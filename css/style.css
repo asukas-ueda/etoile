@@ -85,6 +85,17 @@ h2 {
 .ranking-box img {
     width: 90%;
 }
+.ranking-box h3 {
+    font-size: 2rem;
+    color: #fff352;
+}
+.ranking-box a {
+    padding: 5px;
+    border-radius: 10px;
+}
+.infomation-area-2 {
+    width: 50%;
+}
 
 /*フッター*/
 footer {
